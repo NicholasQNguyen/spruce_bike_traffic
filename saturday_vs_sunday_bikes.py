@@ -7,7 +7,7 @@ def main():
     saturday = 2
     sunday = 3
     columns = ["AM8", "AM9", "AM10", "AM11",]
-    dataframe = pd.read_csv("17_and_spruce_bike_traffic.csv")
+    dataframe = pd.read_csv("18_19_spruce_bike_traffic.csv")
     saturday_bikes = dataframe.iloc[saturday]
     sunday_bikes = dataframe.iloc[sunday]
     saturday_bikes_between_8_and_11 = sum(saturday_bikes[columns])
